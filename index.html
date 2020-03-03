@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron Sakila</title>
+    <link href="./main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1 id="main_title">Busqueda en Sakila</h1>
+    <form id="form_filter">
+        <label for = "busqueda_descripcion">Buscar por Descripcion</label>
+        <input type="checkbox" id="busqueda_descripcion">
+        <label for = "busqueda_titulo">Buscar por Titulo</label>
+        <input type="checkbox" id="busqueda_titulo" >
+        <br>
+        <br>
+        <input type="text" placeholder="Ingrese su busqueda" id="txt_busqueda">
+    </form>
+    <table id="table_results"></table>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

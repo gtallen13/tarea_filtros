@@ -1,0 +1,44 @@
+body, html
+{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#titulo-principal
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#form_filtrar
+{
+    text-align: center;
+} 
+
+
+
+#form_filtrar input
+{
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid antiquewhite;
+    border-radius: 3px;
+}
+
+#form_filtrar input:focus
+{
+    outline:none;
+}
+
+table, th, td
+{
+    margin: 50px auto;
+    border: 1px solid black;
+    transition: all 1s;
+}
+
+tr:hover
+{
+    background-color: aqua;
+}
+
